@@ -18,7 +18,7 @@ From (https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt) I chose "Electr
 ![non-paid_sum](https://user-images.githubusercontent.com/30487641/139776724-21d8085d-529a-4463-ba9b-d5ea57f28913.PNG)
 
 ## Summary
-Of the 50,753 reviews that made it through the filter (described above) over 97.8% of them were from non-paid reviews. The relatively small sample size of 1,080 for paid reviews is not ideal. However, there does not appear to be any positivity bias for the reviews in the Vine program since the non-paid reviews have a 5-star percentage that is over 4% higher than paid reviews.
+Of the 50,753 reviews that made it through the filters, (described above) over 97.8% of them were from non-paid reviews. The relatively small sample size of 1,080 for paid reviews is not ideal. However, there does not appear to be any positivity bias for the reviews in the Vine program since the non-paid reviews have a 5-star percentage that is over 4% higher than the paid reviews.
 
 Knowing the 5-star percent is important but misses some information. What was the average ratings? What do the ratings distributions look like? Are they distributed similarly? To be more confident in my assertion of no bias, I would first compare the average ratings between the two groups. Then I would bin each of them from 0 to 5 stars with 0.5 star intervals. If there is no positivity bias, then the averages should be close (or the paid reviews should be larger), and the distributions should be similarly shaped.
 
