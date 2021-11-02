@@ -6,8 +6,8 @@ Analyze reviews written by members of the Amazon Vine program and compare to the
 ### Tools
 - **PostgreSQL**: to create the schema, load the transformed data frames, and export the vine_table data.
 - **Amazon RDS**: to store big data 
-- **Google Colab**: to extract data and transform data with **PySpark**
-- **Jupyter Notebook**: to load vine_table and perform analysis with **Pandas** from **Python**
+- **Google Colab**: to extract data and transform with **PySpark**
+- **Jupyter Notebook**: to load vine_table csv and perform analysis with **Pandas** from **Python**
 
 
 ## Results
